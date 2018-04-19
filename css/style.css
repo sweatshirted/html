@@ -1,0 +1,88 @@
+h3{
+color:red;
+font-family: 'Lato', sans-serif;
+}
+
+#first-para{
+	color: orange;
+font-family: 'Anton', sans-serif;
+}
+
+.multiple {
+	color: blue;
+}
+
+#div{
+/*	position:fixed;*/
+	width: 100vw;
+	height: 100px;
+	background: rgba(0,0,0,0.5);
+	top:0;
+}
+
+#moving-1{
+	position:relative;
+	width:30vw;
+	height:40px;
+	left:30vw;
+}
+
+#one{
+	position:static;
+    width:300vw;
+	height:50px;
+	left:30vw;
+	background: rgba(0,0,0,0.1);
+
+}
+
+#two{
+	position:fixed;
+	top:0;
+	width:300vw;
+	height:40px;
+	left:70vw;
+	background: rgba(150,0,0,1);
+	font-family: 'Kirang Haerang', cursive;
+
+}
+
+#three{
+	position:absolute;
+	width:300vw;
+	height:400px;
+	background: rgba(240,0,140,0.09);
+	font-family: 'Press Start 2P', cursive;
+
+}
+
+#four{
+	position:relative;
+	width:30vw;
+	height:40px;
+	left:50vw;
+	background: rgba(200,140,13,0.5);
+
+}
+
+#five{
+	position:absolute;
+	width: 100px;
+	height: 100px;
+	background:red;
+	transition: width 2s ease-in;
+}
+
+#five:hover {
+	width:300px;
+}
+
+#translate{
+	width: 300px;
+	height: 100px;
+	background-color: yellow;
+}
+
+#translate:hover {
+	transform: translate(30px);
+}
